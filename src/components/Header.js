@@ -1,7 +1,15 @@
 import React from 'react'
 
-export const Header = () => {
+const Header = () => {
   return(
-    <>hello11</>
+    <div className='header'>
+      <div className='logo-box'>
+        <img src='assets/images/logo-white.png' alt='' className='logo'/>
+      </div>
+
+    </div>
   )
-}
+}  
+
+export default Header
+  

@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Footer = () => {
+const Footer = () => {
   return(
     <>hello12</>
   )
 }
+
+export default Footer

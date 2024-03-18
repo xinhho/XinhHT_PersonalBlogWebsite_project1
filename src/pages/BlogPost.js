@@ -1,7 +1,8 @@
 import React from 'react'
 
-export const BlogPost = () => {
+const BlogPost = () => {
   return(
     <>hello14</>
   )
 }
+export default BlogPost
