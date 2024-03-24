@@ -2,17 +2,15 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const Homepage = () => {
+const About = () => {
   return(
-    <div className='homepage'>
+    <div className=''>
       <Header />
       <div className='content'>
-        <div className='lasted-post'></div>
-        <div className='posts-favorites'></div>
+        content
       </div>
       <Footer />
     </div>
   )
 }
-
-export default Homepage
+export default About

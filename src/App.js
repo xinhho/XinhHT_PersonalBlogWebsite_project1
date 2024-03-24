@@ -1,7 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Homepage from './pages/HomePage'
-import BlogPost from './pages/BlogPost'
+import About from './pages/About'
+import Places from './pages/Places'
+import Inspiration from './pages/Inspiration'
 
 const App = () => {
   return (
@@ -10,9 +12,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/homepage" element={<Homepage />} />
-          <Route path="/about" element={<BlogPost />} />
-          <Route path="/places" element={<BlogPost />} />
-          <Route path="/inspiration" element={<BlogPost />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/places" element={<Places />} />
+          <Route path="/inspiration" element={<Inspiration />} />
         </Routes>
       </Router>
       

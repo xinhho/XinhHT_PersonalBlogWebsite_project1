@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  height: auto;
+  padding: 18px;
+  flex-direction: column;
+  background-color: aquamarine;
+
+  .informations {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    &-info, &-explore, &-popular {
+      display: flex;
+      flex-direction: column;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      
+      label {
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .contact-info {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px auto;
+    border-top: 1px solid $color-black;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      padding: 16px;
+    }
+  }
+}
