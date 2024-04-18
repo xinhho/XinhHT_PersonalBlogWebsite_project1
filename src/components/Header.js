@@ -4,9 +4,6 @@ import NavigationBar from './NavigationBar'
 const Header = () => {
   return(
     <div className='header'>
-      {/* <div className='logo-box'>
-        <img src='assets/images/logo-white.png' alt='' className='logo'/>
-      </div> */}
       <NavigationBar />
 
       <div className='text-box'>

@@ -1,0 +1,92 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "title": "Best Things To Do in Ninh Binh & Tam Coc (Vietnam)",
+      "imageUrl": "../../public/assets/images/Tam-Coc-Ninh-Binh-vietnam.png",
+      "href": "/places/Best-Things-To-Do-in-Ninh-Binh",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    },
+    {
+      "id": 2,
+      "title": "",
+      "imageUrl": "",
+      "href": "",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    },
+    {
+      "id": 3,
+      "title": "",
+      "imageUrl": "",
+      "href": "",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    },
+    {
+      "id": 4,
+      "title": "",
+      "imageUrl": "",
+      "href": "",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    },
+    {
+      "id": 5,
+      "title": "",
+      "imageUrl": "",
+      "href": "",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    },
+    {
+      "id": 6,
+      "title": "",
+      "imageUrl": "",
+      "href": "",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    },
+    {
+      "id": 7,
+      "title": "",
+      "imageUrl": "",
+      "href": "",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    },
+    {
+      "id": 8,
+      "title": "",
+      "imageUrl": "",
+      "href": "",
+      "description": {
+        "header": "",
+        "articel": "",
+        "footer": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+.blog-post {
+  .container {
+    display: flex;
+    height: auto;
+    padding: 32px;
+    flex-direction: column;
+    .content {
+      display: inline-flex ;
+      width: 100%;
+      height: auto;
+      min-height: 600px;
+
+      &-right {
+        display: flex;
+        width: 30%;
+        padding: 16px;
+      }
+      &-left {
+        display: flex;
+        width: 65%;
+        height: auto;
+        position: relative;
+        padding: 16px;
+        img {
+          position: absolute;
+          width: 100%;
+          min-width: 400px;
+          height: auto;
+          
+        }
+
+      }
+    }
+  }
+}

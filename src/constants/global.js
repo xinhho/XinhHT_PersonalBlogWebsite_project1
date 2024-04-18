@@ -11,7 +11,7 @@ export const STRINGS = {
   NAVIGATION_BAR: {
     LABLE_HOMEPAGE: 'Home',
     LABLE_ABOUT: 'About',
-    LABLE_PLACES: 'Places',
+    LABLE_PLACES: 'Destinations',
     LABLE_INSPIRATION: 'Inspiration'
 
   }
