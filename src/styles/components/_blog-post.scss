@@ -4,6 +4,18 @@
     height: auto;
     padding: 32px;
     flex-direction: column;
+    .socials {
+      display: flex;
+      // justify-content: flex-end;
+      a {
+        img {
+          width: 45px;
+          height: 45px;
+          padding: 8px;
+          border-radius: 50%;
+        }
+      }
+    }
     .content {
       display: inline-flex ;
       width: 100%;
