@@ -16,8 +16,6 @@ const Homepage = ({ data, img }) => {
     })
   }
 
-  console.log('data', data)
-
   return(
     <div className='homepage'>
       <Header />

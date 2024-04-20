@@ -1,4 +1,7 @@
 import React from 'react'
+import facebook from '../assets/images/fb-icon.jpg'
+import instagram from '../assets/images/instagram.png'
+import twitter from '../assets/images/Logo-Twitter-icon-transparent-PNG.png'
 
 const Footer = () => {
 
@@ -53,7 +56,11 @@ const Footer = () => {
         </div>
       </div>
       <div className='contact-info'>{renderLinks(contactInfoData)}</div>
-
+      <div className='socials'>
+        <a href='https://www.facebook.com/'><img src={facebook} alt='' /></a>
+        <a href='https://twitter.com/'><img src={twitter} alt='Twitter'/></a>
+        <a href='https://www.instagram.com/'><img src={instagram} alt='Instagram' /></a>
+      </div>
     </div>
   )
 }

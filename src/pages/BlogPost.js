@@ -14,6 +14,7 @@ const BlogPost = ({data}) => {
       <Header />
       <div className='container'>
         <h1>{dataPost[0]?.title}</h1>
+        <p><b>Author Name</b>: {dataPost[0]?.authorName} / <b>Date</b>: {dataPost[0]?.dateCreate}</p>
         <div className='content'>
           <div className='content-right'>
             <article>{dataPost[0]?.content}</article>
