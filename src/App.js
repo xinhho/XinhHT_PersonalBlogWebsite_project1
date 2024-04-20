@@ -16,25 +16,25 @@ import img8 from './assets/images/kinh-nghiem-du-lich-da-lat-ban-can-luu-lai-1.p
 const data = {
   bestPlaces: [
     {
-      id: 1,
+      postId: 1,
       imageUrl: img1,
       title: 'Best Things To Do in Ninh Binh & Tam Coc (Vietnam)',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 2,
+      postId: 2,
       imageUrl: img2,
       title: '14 Things To Do in Hoi An, Vietnam',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 3,
+      postId: 3,
       imageUrl: img3,
       title: 'Trekking in Sapa: Balancing on the Borders of the Ricefields',
-      content: ''
+      content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 4,
+      postId: 4,
       imageUrl: img4,
       title: 'Ha Long Bay: How to Visit & Things to do',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
@@ -42,37 +42,37 @@ const data = {
   ],
   allDestination: [
     {
-      id: 5,
+      postId: 5,
       imageUrl: img1,
       title: 'Best Things To Do in Ninh Binh & Tam Coc (Vietnam)',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 6,
+      postId: 6,
       imageUrl: img3,
       title: 'Trekking in Sapa: Balancing on the Borders of the Ricefields',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 7,
+      postId: 7,
       imageUrl: img4,
       title: 'Ha Long Bay: How to Visit & Things to do',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 8,
+      postId: 8,
       imageUrl: img6,
       title: 'Hon Do Ninh Thuan',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 9,
+      postId: 9,
       imageUrl: img7,
       title: 'Mang-Den kontum Vietnam',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 10,
+      postId: 10,
       imageUrl: img8,
       title: 'Da Lat Vietnam',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
@@ -80,19 +80,19 @@ const data = {
   ],
   unforgettableExperiences: [
     {
-      id: 11,
+      postId: 11,
       imageUrl: img8,
       title: 'Discover Vietnam by Motorbike with Easy Riders',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 12,
+      postId: 12,
       imageUrl: img6,
       title: 'Trekking in Sapa: Balancing on the Borders of the Ricefields',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'
     },
     {
-      id: 13,
+      postId: 13,
       imageUrl: img7,
       title: '14 Best Things to do in Vietnam in 2024',
       content: 'Hoi An: Vietnam’s most loved travel destination, and home to the charming lantern-lit streets of the old town, which lie nestled along the river bank. The Japanese, Chinese and French influences translate back into the street scene where traditional old wooden and yellow colonial buildings sit side-by-side. Not to mention the baguettes being sold on every street corner- yum! Hoi An is a long-established UNESCO world heritage site and, therefore, has perfectly preserved its history. Here are the top things to do in Hoi An, Vietnam.'

@@ -10,7 +10,7 @@ const Homepage = ({ data, img }) => {
       return (
         <div key={item.id} className='img-carousel card'>
           <img src={ item?.imageUrl } alt={item?.title} />
-          <p><a href={`/blog-post/${item?.id}`}>{item?.title}</a></p>
+          <p><a href={`/blog-post/${item?.postId}`}>{item?.title}</a></p>
         </div>
       )
     })
@@ -29,7 +29,7 @@ const Homepage = ({ data, img }) => {
             <div className='main'>
               <div className='img-carousel card'>
                 <img src={ img?.imageUrl } alt={img?.title} />
-                <p><a href={`/blog-post/${img?.id}`}>{img?.title}</a></p>
+                <p><a href={`/blog-post/${img?.postId}`}>{img?.title}</a></p>
               </div>
             </div>
             <div className='sub'>
